@@ -1,0 +1,32 @@
+{
+    "name": "eslint-config-magenta",
+    "version": "1.0.0",
+    "description": "ESLint configuration for TypeScript best practices",
+    "keywords": [
+        "eslint",
+        "typescript",
+        "linter",
+        "typescript-eslint",
+        "styleguide",
+        "esnext",
+        "checker",
+        "code style",
+        "best practices",
+        "eslint-config"
+    ],
+    "author": "doinkythederp <doinkythederp@icloud.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.28.0",
+        "@typescript-eslint/parser": "^5.28.0",
+        "eslint": "^8.17.0",
+        "typescript": "^4.7.3",
+        "husky": "^8.0.1"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.28.0",
+        "@typescript-eslint/parser": "^5.28.0",
+        "eslint": "^8.17.0",
+        "typescript": "^4.7.3"
+    }
+}
