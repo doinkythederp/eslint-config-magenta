@@ -12,7 +12,7 @@
         "checker",
         "code style",
         "best practices",
-        "eslint-config"
+        "eslintconfig"
     ],
     "author": "doinkythederp <doinkythederp@icloud.com>",
     "license": "ISC",
@@ -24,9 +24,22 @@
         "husky": "^8.0.1"
     },
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.28.0",
-        "@typescript-eslint/parser": "^5.28.0",
-        "eslint": "^8.17.0",
-        "typescript": "^4.7.3"
-    }
+        "@typescript-eslint/eslint-plugin": "^5.28",
+        "@typescript-eslint/parser": "^5.28",
+        "eslint": "8.x",
+        "typescript": "4.x"
+    },
+    "homepage": "https://github.com/doinkythederp/eslint-config-magenta#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/doinkythederp/eslint-config-magenta.git"
+    },
+    "bugs": {
+        "url": "https://github.com/doinkythederp/eslint-config-magenta/issues"
+    },
+    "main": "./.eslintrc.json",
+    "exports": "./.eslintrc.json",
+  "files": [
+    ".eslintrc.json"
+  ]
 }
