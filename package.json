@@ -17,11 +17,16 @@
     "author": "doinkythederp <doinkythederp@icloud.com>",
     "license": "ISC",
     "devDependencies": {
+        "@types/eslint": "^8.4.3",
+        "@types/jest": "^28.1.2",
+        "@types/lodash": "^4.14.182",
+        "@types/node": "^18.0.0",
         "@typescript-eslint/eslint-plugin": "^5.28.0",
         "@typescript-eslint/parser": "^5.28.0",
         "eslint": "^8.17.0",
-        "typescript": "^4.7.3",
-        "husky": "^8.0.1"
+        "husky": "^8.0.1",
+        "jest": "^28.1.1",
+        "typescript": "^4.7.3"
     },
     "peerDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.28",
@@ -39,7 +44,13 @@
     },
     "main": "./.eslintrc.json",
     "exports": "./.eslintrc.json",
-  "files": [
-    ".eslintrc.json"
-  ]
+    "files": [
+        ".eslintrc.json"
+    ],
+    "scripts": {
+        "test": "jest"
+    },
+    "engines": {
+        "node": ">= 16"
+    }
 }
