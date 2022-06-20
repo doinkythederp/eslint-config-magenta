@@ -2,7 +2,7 @@
 
 This shared ESLint config for TypeScript + Node.js is a strict, opinionated set of rules enforcing best practices.
 
-[![NPM Version](https://img.shields.io/npm/v/eslint-config-magenta?style=flat-square)](https://www.npmjs.com/package/eslint-config-magenta) ![License](https://img.shields.io/npm/l/eslint-config-magenta) ![Supported ESLint Versions](https://img.shields.io/npm/dependency-version/eslint-config-magenta/peer/eslint) ![Supported TypeScript Versions](https://img.shields.io/npm/dependency-version/eslint-config-magenta/peer/typescript)
+[![NPM Version](https://img.shields.io/npm/v/eslint-config-magenta?style=flat-square)](https://www.npmjs.com/package/eslint-config-magenta) ![License](https://img.shields.io/npm/l/eslint-config-magenta) ![Supported ESLint Versions](https://img.shields.io/npm/dependency-version/eslint-config-magenta/peer/eslint) ![Supported TypeScript Versions](https://img.shields.io/npm/dependency-version/eslint-config-magenta/peer/typescript) ![Unit Test Results](https://github.com/doinkythederp/eslint-config-magenta/actions/workflows/tests.yml/badge.svg)
 
 ## Installation
 
