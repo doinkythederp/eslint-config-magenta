@@ -55,3 +55,7 @@ extends:
 parserOptions:
     project: ./tsconfig.json
 ```
+
+### Why can't I import Node.js core modules (fs, util, child_process, etc)?
+
+This linter config prefers using the `node:` protocol to import core modules. Consider adding this prefix (e.g. `node:fs`, `node:assert/strict`) or disabling `@typescript-eslint/no-restricted-imports`.
