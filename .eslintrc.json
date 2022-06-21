@@ -5,6 +5,7 @@
     ],
     "parser": "@typescript-eslint/parser",
     "rules": {
+        // Category: likely mistakes
         /*
          * @ts-* comments can hide important errors
          * as well as ones that no longer exist.
@@ -12,49 +13,36 @@
          */
         "@typescript-eslint/ban-ts-comment": 2,
         "@typescript-eslint/ban-types": 2,
+        "@typescript-eslint/method-signature-style": 2,
+        "@typescript-eslint/no-dynamic-delete": 2,
+        "no-console": 1,
+        "no-debugger": 1,
+        "@typescript-eslint/no-base-to-string": 2,
+        "@typescript-eslint/no-empty-function": 2,
+        "@typescript-eslint/no-empty-interface": 2,
+        "@typescript-eslint/no-extraneous-class": 2,
+        "radix": 1,
+        "@typescript-eslint/no-loop-func": 2,
+        "no-await-in-loop": 1,
+
+        // Category: stylistic decisions
         "@typescript-eslint/consistent-indexed-object-style": 2,
         "@typescript-eslint/consistent-type-assertions": 2,
-        "@typescript-eslint/consistent-type-definitions": [
-            2,
-            "interface"
-        ],
+        "@typescript-eslint/consistent-type-definitions": [2, "interface"],
         "@typescript-eslint/dot-notation": 2,
         "@typescript-eslint/explicit-member-accessibility": 2,
         "@typescript-eslint/member-delimiter-style": 2,
-        "@typescript-eslint/method-signature-style": 2,
-        "@typescript-eslint/no-base-to-string": 2,
         "@typescript-eslint/no-duplicate-imports": 2,
-        "@typescript-eslint/no-dynamic-delete": 2,
-        "@typescript-eslint/no-empty-function": 2,
-        "@typescript-eslint/no-empty-interface": 2,
-        "@typescript-eslint/no-explicit-any": 2,
-        "@typescript-eslint/no-extraneous-class": 2,
-        "@typescript-eslint/no-invalid-this": 2,
-        "@typescript-eslint/no-loop-func": 2,
-        "@typescript-eslint/no-non-null-asserted-nullish-coalescing": 2,
         "@typescript-eslint/no-redeclare": 2,
-        "@typescript-eslint/no-require-imports": 2,
-        "@typescript-eslint/no-throw-literal": 2,
         "@typescript-eslint/no-unused-expressions": 2,
-        "@typescript-eslint/no-use-before-define": 2,
-        "@typescript-eslint/prefer-readonly": 2,
         "@typescript-eslint/prefer-regexp-exec": 2,
-        "@typescript-eslint/prefer-return-this-type": 2,
-        "@typescript-eslint/unified-signatures": 2,
         "prefer-spread": 2,
         "no-lonely-if": 2,
-        "no-extend-native": 2,
-        "no-empty": 2,
         "multiline-comment-style": 2,
         "max-params": 2,
-        "curly": [
-            2,
-            "multi-or-nest"
-        ],
-        "no-await-in-loop": 1,
-        "radix": 1,
-        // prefers `node:` protocol over bare import
+        "curly": [2, "multi-or-nest"],
         "@typescript-eslint/no-restricted-imports": [
+            // prefers `node:` protocol over bare import
             2,
             "assert",
             "buffer",
@@ -90,7 +78,20 @@
             "vm",
             "zlib"
         ],
-        "no-console": 1,
-        "no-debugger": 1
+
+        // Category: correctness
+        "@typescript-eslint/no-explicit-any": 2,
+        "@typescript-eslint/no-invalid-this": 2,
+        "@typescript-eslint/no-non-null-asserted-nullish-coalescing": 2,
+        "@typescript-eslint/no-require-imports": 2,
+        "@typescript-eslint/no-throw-literal": 2,
+
+        // Category: suspicious
+        "@typescript-eslint/no-use-before-define": 2,
+        "@typescript-eslint/prefer-readonly": 2,
+        "@typescript-eslint/prefer-return-this-type": 2,
+        "@typescript-eslint/unified-signatures": 2,
+        "no-extend-native": 2,
+        "no-empty": 2 // empty `catch` blocks should have a comment to explain them
     }
 }
