@@ -55,8 +55,8 @@ function runTests(files, filesRoot, shouldPass) {
             if (shouldPass && result.messages.length)
                 reportErrors(file, result);
 
-            if (shouldPass) expect(result.errorCount).toBe(0);
-            else expect(result.errorCount).not.toBe(0);
+            if (shouldPass) expect(result.messages.length).toBe(0);
+            else expect(result.messages.length).not.toBe(0);
         });
     }
 }
