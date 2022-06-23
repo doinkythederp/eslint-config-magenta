@@ -57,7 +57,8 @@
     "main": "./.eslintrc.json",
     "exports": "./.eslintrc.json",
     "files": [
-        ".eslintrc.json"
+        ".eslintrc.json",
+        "{base,node,unicorn}.json"
     ],
     "scripts": {
         "test": "jest"
