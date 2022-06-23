@@ -38,6 +38,14 @@
         "eslint-plugin-unicorn": "^42.0.0",
         "typescript": "4.x"
     },
+    "peerDependenciesMeta": {
+        "eslint-plugin-unicorn": {
+            "optional": true
+        },
+        "eslint-plugin-node": {
+            "optional": true
+        }
+    },
     "homepage": "https://github.com/doinkythederp/eslint-config-magenta#readme",
     "repository": {
         "type": "git",

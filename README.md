@@ -65,6 +65,21 @@ parserOptions:
     project: ./tsconfig.json
 ```
 
+### Can I disable all of the node/unicorn rules?
+
+Yes. You can add rulesets independently by extending `magenta/base`, `magenta/unicorn`, and/or `magenta/node`. For example, to only enforce the base rules and `eslint-plugin-unicorn` rules:
+
+```json
+{
+    "extends": ["magenta/base", "magenta/unicorn"],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    }
+}
+```
+
+If you're not using the rules for one of `eslint-plugin-unicorn` or `eslint-plugin-node`, you can uninstall that plugin.
+
 ### Why can't I import Node.js core modules (fs, util, child_process, etc)?
 
 This linter config prefers using the `node:` protocol to import core modules. Consider adding this prefix (e.g. `node:fs`, `node:assert/strict`) or disabling `@typescript-eslint/no-restricted-imports`.
