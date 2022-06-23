@@ -4,6 +4,7 @@
         "plugin:@typescript-eslint/recommended-requiring-type-checking"
     ],
     "parser": "@typescript-eslint/parser",
+    "plugins": ["deprecation"],
     "rules": {
         // Category: suspicious - most likely a mistake or useless
         /*
