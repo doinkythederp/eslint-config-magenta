@@ -20,6 +20,7 @@ This package has several peer dependencies that must be present for it to work p
   - `parser` (typescript parser for ESLint)
   - `eslint-plugin` (linter rules for ESLint)
 - `typescript` (type checker)
+- `eslint-plugin-unicorn` (linter rules for ESLint)
 
 Use your favorite package manager to install. If your package manager does not install peer dependencies automatically (default behavior with pnpm and yarn), you can copy one of these commands to install everything at once.
 
