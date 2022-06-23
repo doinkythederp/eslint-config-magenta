@@ -24,6 +24,7 @@
         "@typescript-eslint/eslint-plugin": "^5.28.0",
         "@typescript-eslint/parser": "^5.28.0",
         "eslint": "^8.17.0",
+        "eslint-plugin-unicorn": "^42.0.0",
         "husky": "^8.0.1",
         "jest": "^28.1.1",
         "typescript": "^4.7.3"
@@ -32,6 +33,7 @@
         "@typescript-eslint/eslint-plugin": "^5.28",
         "@typescript-eslint/parser": "^5.28",
         "eslint": "8.x",
+        "eslint-plugin-unicorn": "^42.0.0",
         "typescript": "4.x"
     },
     "homepage": "https://github.com/doinkythederp/eslint-config-magenta#readme",

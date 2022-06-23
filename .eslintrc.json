@@ -1,7 +1,8 @@
 {
     "extends": [
         "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking"
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "./unicorn.json"
     ],
     "parser": "@typescript-eslint/parser",
     "rules": {
@@ -91,43 +92,6 @@
         "multiline-comment-style": 2,
         "max-params": 2,
         "curly": [2, "multi-or-nest"],
-        "@typescript-eslint/no-restricted-imports": [
-            // prefers `node:` protocol over bare import
-            2,
-            "assert",
-            "buffer",
-            "child_process",
-            "cluster",
-            "crypto",
-            "dgram",
-            "dns",
-            "domain",
-            "events",
-            "freelist",
-            "fs",
-            "http",
-            "https",
-            "module",
-            "net",
-            "os",
-            "path",
-            "punycode",
-            "querystring",
-            "readline",
-            "repl",
-            "smalloc",
-            "stream",
-            "string_decoder",
-            "sys",
-            "timers",
-            "tls",
-            "tracing",
-            "tty",
-            "url",
-            "util",
-            "vm",
-            "zlib"
-        ],
         "no-irregular-whitespace": [
             1,
             { "skipRegExps": false, "skipStrings": false }

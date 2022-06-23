@@ -17,11 +17,11 @@ This package has several peer dependencies that must be present for it to work p
 Use your favorite package manager to install. If your package manager does not install peer dependencies automatically (default behavior with pnpm and yarn), you can copy one of these commands to install everything at once.
 
 ```sh
-pnpm add -D eslint-config-magenta @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
+pnpm add -D eslint-config-magenta eslint-plugin-unicorn @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
 # or
-yarn add -D eslint-config-magenta @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
+yarn add -D eslint-config-magenta eslint-plugin-unicorn @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
 # or
-npm i -D eslint-config-magenta @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
+npm i -D eslint-config-magenta eslint-plugin-unicorn @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
 ```
 
 ## Usage
