@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json.schemastore.org/eslintrc",
+    "plugins": ["node"],
+    "rules": {
+        // Category: suspicious
+        "node/no-unpublished-bin": 1,
+        "node/no-unpublished-import": 1,
+        "node/shebang": 1,
+        "node/no-deprecated-api": 1,
+        "node/prefer-promises/dns": 1,
+        "node/prefer-promises/fs": 1,
+
+        // Category: stylistic decisions
+        "node/prefer-global/buffer": [1, "never"],
+        "node/prefer-global/console": [1, "always"],
+        "node/prefer-global/process": [1, "never"],
+        "node/prefer-global/text-decoder": [1, "never"],
+        "node/prefer-global/text-encoder": [1, "never"],
+        "node/prefer-global/url-search-params": [1, "never"],
+        "node/prefer-global/url": [1, "never"]
+    }
+}
