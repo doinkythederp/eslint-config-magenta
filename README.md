@@ -6,7 +6,7 @@ This shared ESLint config for TypeScript + Node.js is a strict, opinionated set 
 
 eslint-config-magenta helps you…
 
-- :rocket: …write readable code with enforced complexity limits and stylistic decisions.
+- :rocket: …write readable code with enforced complexity limits and consistent style.
 - :pencil: …avoid common pitfalls like dynamic `delete` and unguarded `for…in` loops.
 - :construction: …remove debugging artifacts like `console.log` and `FIXME` comments before you commit.
 - :mag: …discover ways to optimize your code for type safety and speed.
