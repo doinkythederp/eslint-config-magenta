@@ -103,7 +103,7 @@
         "no-regex-spaces": 1,
         "no-useless-computed-key": 1,
         "object-shorthand": 1,
-        "one-var": 1,
+        "one-var": [1, "never"],
         "operator-assignment": 1,
         "prefer-const": 1,
         "prefer-exponentiation-operator": 1,
