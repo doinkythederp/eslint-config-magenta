@@ -20,17 +20,18 @@ This package has several peer dependencies that must be present for it to work p
   - `parser` (typescript parser for ESLint)
   - `eslint-plugin` (linter rules for ESLint)
 - `typescript` (type checker)
-- `eslint-plugin-unicorn` (linter rules for ESLint)
-- `eslint-plugin-node` (linter rules for ESLint)
+- `eslint-plugin-unicorn`
+- `eslint-plugin-node`
+- `eslint-plugin-deprecation`
 
 Use your favorite package manager to install. If your package manager does not install peer dependencies automatically (default behavior with pnpm and yarn), you can copy one of these commands to install everything at once.
 
 ```sh
-pnpm add -D eslint-config-magenta eslint-plugin-unicorn eslint-plugin-node @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
+pnpm add -D eslint-config-magenta eslint-plugin-deprecation eslint-plugin-unicorn eslint-plugin-node @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
 # or
-yarn add -D eslint-config-magenta eslint-plugin-unicorn eslint-plugin-node @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
+yarn add -D eslint-config-magenta eslint-plugin-deprecation eslint-plugin-unicorn eslint-plugin-node @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
 # or
-npm i -D eslint-config-magenta eslint-plugin-unicorn eslint-plugin-node @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
+npm i -D eslint-config-magenta eslint-plugin-deprecation eslint-plugin-unicorn eslint-plugin-node @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
 ```
 
 ## Usage
