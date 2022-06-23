@@ -6,7 +6,6 @@
         "node/no-unpublished-bin": 1,
         "node/no-unpublished-import": 1,
         "node/shebang": 1,
-        "node/no-deprecated-api": 1,
         "node/prefer-promises/dns": 1,
         "node/prefer-promises/fs": 1,
 

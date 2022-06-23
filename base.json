@@ -74,6 +74,7 @@
         "prefer-numeric-literals": 1,
         "require-await": 1,
         "require-yield": 1,
+        "deprecation/deprecation": 1,
 
         // Category: stylistic decisions
         "@typescript-eslint/consistent-indexed-object-style": 2,
