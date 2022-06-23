@@ -82,29 +82,3 @@ If you're not using the configuration for one of `eslint-plugin-unicorn` or `esl
 ### Why can't I import Node.js core modules (fs, util, child_process, etc)?
 
 This linter config prefers using the `node:` protocol to import core modules. Consider adding this prefix (e.g. `node:fs`, `node:assert/strict`) or disabling `@typescript-eslint/no-restricted-imports`.
-
-### Why can't I use complex `if` statements (if + else if + else)?
-
-Code with a high amount of ciclomatic complexity can be hard to understand. Consider turning your complex `if` statement into guard clauses:
-
-```ts
-// Fails
-function a(x: number) {
-    if (true) {
-        return x;
-    } else if (false) {
-        return x + 1;
-    } else {
-        return 4; // 3rd path
-    }
-}
-
-// Passes
-function a(x: number) {
-    if (true) return x;
-    if (false) return x + 1;
-    return 4;
-}
-```
-
-Check out this video if you want more information: <https://www.youtube.com/watch?v=EumXak7TyQ0>.
