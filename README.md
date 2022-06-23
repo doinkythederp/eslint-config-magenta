@@ -4,6 +4,13 @@ This shared ESLint config for TypeScript + Node.js is a strict, opinionated set 
 
 [![NPM Version](https://img.shields.io/npm/v/eslint-config-magenta)](https://www.npmjs.com/package/eslint-config-magenta) ![License](https://img.shields.io/npm/l/eslint-config-magenta) ![Supported ESLint Versions](https://img.shields.io/npm/dependency-version/eslint-config-magenta/peer/eslint) ![Supported TypeScript Versions](https://img.shields.io/npm/dependency-version/eslint-config-magenta/peer/typescript) ![Unit Test Results](https://github.com/doinkythederp/eslint-config-magenta/actions/workflows/tests.yml/badge.svg)
 
+eslint-config-magenta helps you…
+
+- :rocket: …write readable code with enforced complexity limits and stylistic decisions.
+- :pencil: …avoid common pitfalls like dynamic `delete` and unguarded `for…in` loops.
+- :construction: …remove debugging artifacts like `console.log` and `FIXME` comments before you commit.
+- :mag: …discover ways to optimize your code for type safety and speed.
+
 ## Installation
 
 This package has several peer dependencies that must be present for it to work properly.
