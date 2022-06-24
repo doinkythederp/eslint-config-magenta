@@ -60,7 +60,6 @@
         "unicorn/no-lonely-if": 1,
         "no-nested-ternary": 0,
         "unicorn/no-nested-ternary": 1,
-        "unicorn/no-null": 1,
         "unicorn/no-unreadable-array-destructuring": 1,
         "unicorn/no-unreadable-iife": 1,
         "unicorn/no-zero-fractions": 1,
