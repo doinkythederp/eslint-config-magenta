@@ -92,7 +92,7 @@
         "no-lonely-if": 1,
         "multiline-comment-style": 1,
         "max-params": 1,
-        "curly": [1, "multi-or-nest"],
+        "curly": 1,
         "no-irregular-whitespace": [
             1,
             { "skipRegExps": false, "skipStrings": false }
