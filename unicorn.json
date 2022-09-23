@@ -86,6 +86,7 @@
                 "comments": ["HTML", "indent"]
             }
         ],
-        "unicorn/text-encoding-identifier-case": 1
+        "unicorn/text-encoding-identifier-case": 1,
+        "unicorn/prefer-logical-operator-over-ternary": 1
     }
 }
