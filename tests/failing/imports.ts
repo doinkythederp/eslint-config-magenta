@@ -1,4 +1,4 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import * as path from 'path';
-import { readFile } from 'fs';
-export * as buffer from 'buffer';
+import { readFile } from "fs";
+import * as path from "path";
+export * as buffer from "buffer";

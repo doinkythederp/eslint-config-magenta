@@ -7,6 +7,7 @@ specifiers:
   '@types/node': ^18.0.0
   '@typescript-eslint/eslint-plugin': 5.28.x
   '@typescript-eslint/parser': 5.28.x
+  dprint: ^0.32.1
   eslint: 8.14.x
   eslint-plugin-deprecation: 1.3.x
   eslint-plugin-node: 11.1.x
@@ -22,6 +23,7 @@ devDependencies:
   '@types/node': 18.0.0
   '@typescript-eslint/eslint-plugin': 5.28.0_lidik6jhihh2b7zo5zf2jyha2q
   '@typescript-eslint/parser': 5.28.0_6fqkmpbigbv3erpcjclxwo3hvu
+  dprint: 0.32.1
   eslint: 8.14.0
   eslint-plugin-deprecation: 1.3.2_6fqkmpbigbv3erpcjclxwo3hvu
   eslint-plugin-node: 11.1.0_eslint@8.14.0
@@ -1219,6 +1221,10 @@ packages:
       node-int64: 0.4.0
     dev: true
 
+  /buffer-crc32/0.2.13:
+    resolution: {integrity: sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==}
+    dev: true
+
   /buffer-from/1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
     dev: true
@@ -1392,6 +1398,14 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       esutils: 2.0.3
+    dev: true
+
+  /dprint/0.32.1:
+    resolution: {integrity: sha512-HBG9npq+26QW1IjhLyMfX0qMwkIYREZqMByNmLL9O778rsyK54eTkXPhuIBeF1FA2VIoZg3t/5si6FRvDtoQmw==}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      yauzl: 2.10.0
     dev: true
 
   /electron-to-chromium/1.4.258:
@@ -1697,6 +1711,12 @@ packages:
     resolution: {integrity: sha512-p5161BqbuCaSnB8jIbzQHOlpgsPmK5rJVDfDKO91Axs5NC1uu3HRQm6wt9cd9/+GtQQIO53JdGXXoyDpTAsgYA==}
     dependencies:
       bser: 2.1.1
+    dev: true
+
+  /fd-slicer/1.1.0:
+    resolution: {integrity: sha512-cE1qsB/VwyQozZ+q1dGxR8LBYNZeofhEdUNGSMbQD3Gw2lAzX9Zb3uIU6Ebc/Fmyjo9AWWfnn0AUCHqtevs/8g==}
+    dependencies:
+      pend: 1.2.0
     dev: true
 
   /file-entry-cache/6.0.1:
@@ -2712,6 +2732,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /pend/1.2.0:
+    resolution: {integrity: sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==}
+    dev: true
+
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
@@ -3229,6 +3253,13 @@ packages:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 21.1.1
+    dev: true
+
+  /yauzl/2.10.0:
+    resolution: {integrity: sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g==}
+    dependencies:
+      buffer-crc32: 0.2.13
+      fd-slicer: 1.1.0
     dev: true
 
   /yocto-queue/0.1.0:
