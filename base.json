@@ -88,6 +88,7 @@
         "@typescript-eslint/no-redeclare": 1,
         "@typescript-eslint/no-unused-expressions": 1,
         "@typescript-eslint/prefer-regexp-exec": 1,
+        "@typescript-eslint/consistent-generic-constructors": 1,
         "prefer-spread": 1,
         "no-lonely-if": 1,
         "multiline-comment-style": 1,
